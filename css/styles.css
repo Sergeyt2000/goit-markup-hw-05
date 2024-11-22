@@ -419,9 +419,6 @@ a {
   background-color: #2e2f42;
   padding-top: 100px;
   padding-bottom: 100px;
-
-  /* max-width: 1440px;
-  margin: 0 auto; */
 }
 .footer .container {
   display: flex;
@@ -451,7 +448,6 @@ a {
   max-width: 264px;
 }
 .footer-social {
-  /* margin-right: 80px; */
 }
 .footer-social .socials-icon {
   width: 24px;
@@ -481,50 +477,22 @@ a {
 .subscribe-title {
   margin-bottom: 16px;
 }
-
-/* .subscribe-mail {
-  display: flex;
-  border: 1px solid #fff;
-  border-radius: 4px;
-  width: 264px;
-  height: 40px;
-  align-items: center;
-  padding: 8px 16px;
-  font-size: 12px;
-  line-height: 2;
-  letter-spacing: 0.04em;
-  color: #fff;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-} */
 .form-subscribe {
   display: flex;
   gap: 24px;
   align-items: center;
   justify-content: flex-start;
 }
-
 .form-label {
-  /* display: flex;
-  align-items: center;
-  padding-left: 16px;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 2;
-  letter-spacing: 0.04em;
-  color: #fff;
-  border: 1px solid #fff;
-  border-radius: 4px;
-  width: 264px;
-  height: 40px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15); */
-}
+  }
 .footer-email-input {
-  background-color: #2e2f42;
+  background-color: transparent;
   border: 1px solid #fff;
   border-radius: 4px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   padding: 8px 16px;
   width: 264px;
+  height: 40px;
   color: #ffffff;
   outline: transparent;
   font-size: 12px;
@@ -542,6 +510,7 @@ a {
 .subscribe-btn {
   display: flex;
   align-items: center;
+  justify-content: center;
   background-color: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
@@ -702,18 +671,7 @@ a {
   background-color: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-/* .modal textarea {
-  width: 100%;
-} */
-/* .input-icon {
-  position: absolute;
-  height: 24px;
-  top: 8px;
-  left: 16px;
-  pointer-events: none;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-} */
-.input-icon-name {
+.input-icon {
   position: absolute;
   top: 50%;
   left: 16px;
