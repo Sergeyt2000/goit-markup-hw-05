@@ -756,7 +756,10 @@ input[type='checkbox']:checked + label .terms-chkbox {
   border: none;
   fill: #f4f4fd;
 }
-/* input[type="checkbox"]:checked+label .click-icon {
-fill: #f4f4fd;
-} */
+/* input[type='checkbox']:focus-visible ~ .privacy-policy .click-icon */
+input[type='checkbox']:focus-visible + .privacy-policy .terms-chkbox .click-icon {
+  outline: 2px solid #a6a6a7;
+  outline-offset: 2px;
+  /* border-radius: 1px; */
+}
 /* #endregion */
